@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Psychologist.master.cs" Inherits="Support_Hub.Psychologist" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychologist</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <nav class="navbar">
+                    <div class="navbar-brand">Support Hub</div>
+                    <div class="navbar-links">
+                        <asp:Label ID="lblWelAdmin" runat="server" Text=""></asp:Label>
+                    </div>
+                </nav>
+            </div>
+            <div class="vertical-navbar text-center">
+                <a href="#">Home</a>
+                <a href="#">Profile</a>
+                <a href="#">Accepted Bookings</a>
+                <a href="#">Chats</a>
+                <a href="#">Sign Out</a>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
