@@ -34,6 +34,3 @@ We welcome contributions! Please:
 1. Fork the project
 2. Create a new branch
 3. Submit a pull request
-
-## License 📄
-This project is licensed under [MIT License] - see the LICENSE file for details.
