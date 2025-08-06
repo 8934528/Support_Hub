@@ -29,7 +29,7 @@ Gender-Based Violence (GBV) is a serious problem worldwide. Many people don’t 
 3. Use the **Report** feature if you need help
 4. Access support contacts anytime
 
-## Contributing 🤝
+## Contributing 
 We welcome contributions! Please:
 1. Fork the project
 2. Create a new branch
